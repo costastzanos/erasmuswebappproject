@@ -1,0 +1,54 @@
+/* Στυλ για την εικόνα στην πάνω δεξιά γωνία */
+#top-right-image {
+    position: absolute;
+    top: 10px; /* Απόσταση από το πάνω μέρος */
+    right: 10px; /* Απόσταση από τη δεξιά πλευρά */
+    width: 150px;  /* Προσαρμόζεις το μέγεθος της εικόνας */
+    height: auto;  /* Διατηρεί την αναλογία της εικόνας */
+    z-index: 1000;  /* Βεβαιώσου ότι η εικόνα είναι πάνω από άλλα στοιχεία */
+}
+/* Επιπλέον στυλ για το περιεχόμενο της σελίδας */
+#container {
+    width: 100%;
+    height: 100vh;
+}
+
+/* Container για το 3D μοντέλο */
+#container {
+    width: 100%;
+    height: 100vh;
+}
+
+/* Στυλ για το κουτί πληροφοριών κάτω από το 3D μοντέλο */
+#info-box {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(230, 230, 230, 0.518);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 400px;
+    font-size: 16px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Στυλ για τους τίτλους μέσα στο κουτί πληροφοριών */
+#info-box h2 {
+    margin: 0 0 10px 0;
+}
+
+/* Στυλ για τις παραγράφους στο κουτί πληροφοριών */
+#info-box p {
+    margin: 0px 0;
+}
+
+/* Στυλ για τους τίτλους των πληροφοριών */
+.info-title {
+    font-weight: bold;
+    color: #7ba4f7;
+}
+

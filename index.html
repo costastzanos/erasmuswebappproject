@@ -1,0 +1,57 @@
+<!--Developed by Κωνσταντίνος Τζανοδασκαλάκης & Γιώργος Καλλιτσουνάκης-->
+
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ERASMUS+ Web App Project</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/modelviewer.css">
+    <link rel="stylesheet" href="css/hotelinfoboxstyles.css">
+    <style>
+        body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+
+    background-image: url('images/background.jpg');
+    background-size: cover; 
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+    </style>
+</head>
+<body>
+    <img id="top-right-image" src="images/logo.png" alt="Logo">
+    <!-- Container για 3D ξενοδοχείο -->
+    <div class="container">
+        <div>
+            <model-viewer 
+            src="model.glb" 
+            alt="Melodia City Hotel" 
+            auto-rotate
+            camera-controls>
+            </model-viewer>
+        </div>
+
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+    </div>
+
+    <!-- UI πληροφορίες ξενοδοχείου/δωματίου -->
+    <div id="info-box">
+        <h2>Ξενοδοχείο "Melodia City Hotel"</h2>
+        <p><span class="info-title">Kράτηση:</span> Γιώργος Παπαδοπουλος</p>
+        <p><span class="info-title">Check-in:</span> 8 Απριλίου 2025</p>
+        <p><span class="info-title">Check-out:</span> 12 Απριλίου 2025</p>
+        <p><span class="info-title">Δωμάτιο:</span> Deluxe Δίκλινο με Θέα Θάλασσα</p>
+        <p><span class="info-title">Αριθμός δωματίου:</span> 220</p>
+        <p><span class="info-title">Περιλαμβάνονται:</span> Πρωινό, Δωρεάν WiFi, Πρόσβαση σε Πισίνα & Spa</p>
+        <p><span class="info-title">Check-in:</span> 15:00 </p>
+        <p><span class="info-title">Check-out:</span> 11:00 </p>
+        <p><span class="info-title">Κωδικός Κράτησης:</span> ANST-5829GR</p>
+    </div>
+
+</body>
+</html>

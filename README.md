@@ -2,7 +2,7 @@
 
 **This is a project for the ERASMUS+ 2025 Madrid, developed by Constantinos Tzanodaskalakis & George Kallitsounakis 🌳🐻**
 
-This is a simple web-app project that uses AR libraries and HTML/CSS, it's a web app that can be used on hotel keycards, restaurants, tourist attractions, by scanning the QR Code, the phone displays the location in a 3D scan/model, as well as information about the specific location. 📱
+This is a simple web-app project that uses AR libraries and HTML/CSS, it's a web app that can be used on hotel keycards and tourist attractions, by scanning the QR Code, the phone displays the location in a 3D scan/model, as well as information about the specific location. 📱
 
 In this example, by scanning the QR Code, the web app opens up on your phone/tablet and displays the 3D hotel "Melodia City Hotel", as well as information about your booking, such as room number, check-in & check-outs, room type, services provided etc.
 

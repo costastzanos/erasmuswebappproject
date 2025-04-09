@@ -19,16 +19,16 @@ From the developers side, all they require to use it is simple knowledge on HTML
 2. Use the hotelinfobox.css file to customize the looks of the web app
 3. Insert their own model and name the 3D file 'model.glb'
 
-And it's done and ready to be installed on the hotel's server! 🤓
+And it's done and ready to be installed on your server! 🤓
 
-<h1>How can this be integrate in hotels?</h1>
+<h1>How can this be integrated in hotels?</h1>
 
 It's quite simple actually, all you need is:
 
 1. Server (either run locally or through cloud)
 2. This repository modified according to the hotel
 
-The next steps are simple, whilst producing the keycards or keychains for the hotel rooms, you just add a simple QR code, that once scanned, connects to the server that displays the web app. 😁👍
+You can print out a QR code on a hotel keycard or keychain and make the QR code immediately redirect to the local or cloud server. 😁👍
 
 <h1>Credits</h1>
 
